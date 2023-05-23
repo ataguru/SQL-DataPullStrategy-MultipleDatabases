@@ -19,5 +19,15 @@ Example:
 ```python
 pulldata_Production1().pull_data('enter_your_query_or_function_here')
 ```
+
+## Limitations
+Currently, this script is specifically designed to work with PostgreSQL databases due to the connection string format and the use of the psycopg2-binary package. This package is a PostgreSQL adapter for Python, and therefore the script may not work properly with other types of databases (like MySQL, SQLite, etc.) without modification.
+
+If you want to adapt this script to other databases, you might need to use other connection libraries (like pyodbc for SQL Server, mysql-connector-python for MySQL, sqlite3 for SQLite, etc.) and adjust the connection string format to the specific requirements of these databases.
+
+The URI format for connecting to a PostgreSQL database usually follows the pattern: postgresql://user:password@localhost:5432/mydatabase. Other databases may have different URI formats, which would need to be reflected in your .env file and in how you use the read_sql function.
+
+This is a simplification for the purpose of demonstrating a strategy pattern and not intended to be a one-size-fits-all solution. Always adapt your database interactions to your specific needs and security considerations.
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
