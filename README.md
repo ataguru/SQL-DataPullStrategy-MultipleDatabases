@@ -11,8 +11,8 @@ This is an open-source Python script for flexible data extraction from different
 3. Create a .env file in the directory and specify your database URIs as shown in the .env.example file.
 
 ## Usage
-- To use this script, create an instance of one of the subclasses and use the `pull_data` method with your custom SQL query for it to return a DataFrame.
 - Modify the subclasses & names based on your needs.
+- To use this script, create an instance of one of the subclasses and use the `pull_data` method with your custom SQL query for it to return a DataFrame.
 - Check out the main.py file for detailed examples before you use.
 
 
