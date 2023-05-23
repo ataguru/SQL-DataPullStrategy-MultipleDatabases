@@ -13,12 +13,8 @@ This is an open-source Python script for flexible data extraction from different
 ## Usage
 - To use this script, create an instance of one of the subclasses and use the `pull_data` method with your custom SQL query for it to return a DataFrame.
 - Modify the subclasses & names based on your needs.
+- Check out the main.py for example usage & more detailed documentation on how to use this.
 
-Example:
-
-```python
-pulldata_Production1().pull_data('enter_your_query_or_function_here')
-```
 
 ## Limitations
 Currently, this script is specifically designed to work with PostgreSQL databases due to the connection string format and the use of the psycopg2-binary package. This package is a PostgreSQL adapter for Python, and therefore the script may not work properly with other types of databases (like MySQL, SQLite, etc.) without modification.
