@@ -13,7 +13,8 @@ This is an open-source Python script for flexible data extraction from different
 ## Usage
 - To use this script, create an instance of one of the subclasses and use the `pull_data` method with your custom SQL query for it to return a DataFrame.
 - Modify the subclasses & names based on your needs.
-- Check out the main.py for example usage & more detailed documentation on how to use this.
+- Check out the main.py file for detailed examples before you use.
+
 
 
 ## Limitations
