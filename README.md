@@ -1,5 +1,9 @@
 # SQL-DataPullStrategy-MultipleDatabases
  A data pull strategy to pull data from multiple databases into pandas dataframe in an easy, flexible & secure way.
+ I hope this helps to anyone reading this, I've used this many times to:
+ - Build scripts for automation & data analysis purposes that're simply not possible with just one SQL query querying a single database.
+ - Ease my process to only deal with the URIs for once
+ - Securely share my code with others
 
 ## Description
 This is an open-source Python script for flexible data extraction from different databases. It uses Python's `pandas` library and the `psycopg2-binary` package for database connectivity and querying. The script employs the Strategy design pattern, allowing you to quickly and easily switch between different database sources. This script can serve as a base or complement for creating more complex scripts for data analysis or software development.
